@@ -43,19 +43,34 @@ pip install -r requirements.txt
 ```
 ### 4. Set Your OpenAI API Key
 
-To interact with OpenAI's GPT model, you need to set your OpenAI API key. You can do this by adding the key as an environment variable:
+Log in to OpenAI
 
-On macOS/Linux:
+Go to API Keys
+
+Click on Create new secret key
+
+Name your key
+
+Set permissions to All
+
+Click on Create secret key
+
+Copy the key and paste it in an environment variable named exactly OPENAI_API_KEY:
+
+# Linux/MacOS/Bash on Windows
 ```
-export OPENAI_API_KEY="your-api-key"
+export OPENAI_API_KEY="your-api-key-here"
+```
+```
+# Windows Command Prompt
+set OPENAI_API_KEY=your-api-key-here
+```
+```
+# Windows PowerShell
+$env:OPENAI_API_KEY="your-api-key-here"
 ```
 
-On Windows (in Command Prompt):
-```
-set OPENAI_API_KEY="your-api-key"
-```
-
-Alternatively, you can hardcode the API key directly in the script, but this is not recommended for production or shared environments.
+Also you can hardcode your API key, but it's highy not recommended.
 
 ### 5. Run the Script
 Now that everything is set up, run the script to start chatting with Chef-GPT:
