@@ -20,15 +20,19 @@ cd chef-gpt
 ### 2. Set Up a Virtual Environment (Recommended)
 
 It’s highly recommended to use a virtual environment to isolate dependencies. Here's how to set it up:
+
 ```bash
 python -m venv .venv   # Create the virtual environment
 ```
 
 On Windows:
+
 ```bash
 .\.venv\Scripts\activate
 ```
+
 On macOS/Linux:
+
 ```
 source .venv/bin/activate
 ```
@@ -38,9 +42,11 @@ After activation, your terminal prompt should change, indicating that the virtua
 ### 3. Install Dependencies
 
 Once your virtual environment is activated, install the required dependencies:
+
 ```
 pip install -r requirements.txt
 ```
+
 ### 4. Set Your OpenAI API Key
 
 Log in to OpenAI
@@ -58,13 +64,16 @@ Click on Create secret key
 Copy the key and paste it in an environment variable named exactly OPENAI_API_KEY:
 
 # Linux/MacOS/Bash on Windows
+
 ```
 export OPENAI_API_KEY="your-api-key-here"
 ```
+
 ```
 # Windows Command Prompt
 set OPENAI_API_KEY=your-api-key-here
 ```
+
 ```
 # Windows PowerShell
 $env:OPENAI_API_KEY="your-api-key-here"
@@ -73,9 +82,11 @@ $env:OPENAI_API_KEY="your-api-key-here"
 Also you can hardcode your API key, but it's highy not recommended.
 
 ### 5. Run the Script
+
 Now that everything is set up, run the script to start chatting with Chef-GPT:
+
 ```
-python Chef-GPT.py
+./run_chef_gpt.sh
 ```
 
 👨‍🍳 How to Use
@@ -118,6 +129,7 @@ No openai package found?
 Make sure that you have activated the .venv environment before running the script.
 
 Reinstall the dependencies with:
+
 ```
 pip install -r requirements.txt
 ```
