@@ -1,4 +1,9 @@
-# Chef-GPT 🍽️🔥
+## Building a Prompt for Chef GPT 🍱✨
+```
+Modify and expand the Chef GPT script by incorporating a unique personality for your AI chef
+```
+
+## Chef-GPT 🍽️🔥
 
 **Chef-GPT** is an interactive culinary assistant powered by OpenAI's GPT model. Step into the kitchen with a strict, humorous, and somewhat aggressive Ukrainian master chef who will guide you through the culinary world with wit, wisdom, and a sharp tongue. Whether you're looking for ingredient-based dish suggestions, detailed recipes, or critiques on your cooking, Chef-GPT is here to help — with a dash of humor and spice.
 
